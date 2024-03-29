@@ -9,8 +9,8 @@
 	<url>http://maven.apache.org</url>
 	
 	<properties>
-		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
+		<sonar.host.url>http://13.232.79.147:9000/</sonar.host.url>
+		<sonar.login>squ_374fa099f6abe4d8c719c8d767c12abc5db5e471</sonar.login>
 
 	</properties>
 	<dependencies>
@@ -25,17 +25,6 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-releases/</url>
-		</repository>
-  	</distributionManagement>
 	
 	<pluginRepositories>
 	    <pluginRepository>    
